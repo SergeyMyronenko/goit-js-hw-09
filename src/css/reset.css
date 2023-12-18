@@ -32,3 +32,9 @@ img {
   display: block;
   max-width: 100%;
 }
+body {
+  padding: 0 16px;
+}
+.main-logo {
+  margin: 0 auto;
+}
