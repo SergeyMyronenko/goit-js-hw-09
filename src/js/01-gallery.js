@@ -94,12 +94,3 @@ const lightbox = new SimpleLightbox('.gallery a', {
   enableKeyboard: true,
   docClose: true,
 });
-
-document.addEventListener('DOMContentLoaded', style);
-
-function style() {
-  const modalWrapper = document.querySelector('.sl-wrapper');
-  const modalCounter = document.querySelector('.sl-counter');
-  modalWrapper.style.backgroundColor = 'rgba(46, 47, 66, 0.80)';
-  modalCounter.style.color = 'white';
-}
