@@ -30,10 +30,3 @@
 .gallery-item:hover {
   transform: scale(1.1);
 }
-.sl-wrapper {
-  background-color: rgba(46, 47, 66, 0.8);
-}
-.sl-counter,
-.sl-close {
-  color: #fff;
-}
