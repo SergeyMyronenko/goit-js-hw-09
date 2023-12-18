@@ -19,3 +19,6 @@
 .nav-link:focus {
   color: #747bff;
 }
+h1 {
+  margin: 16px 0;
+}
