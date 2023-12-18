@@ -1,9 +1,15 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-const modalWrapper = document.querySelector('.sl-wrapper');
-console.log(modalWrapper);
-// modalWrapper.style.backgroundColor = '#000000';
+document.addEventListener('DOMContentLoaded', style);
+
+function style() {
+  const modalWrapper = document.querySelector('.sl-wrapper');
+  const modalCounter = document.querySelector('.sl-counter');
+  modalWrapper.style.backgroundColor = 'rgba(46, 47, 66, 0.80)';
+  modalCounter.style.color = 'white';
+}
+
 const gallery = document.querySelector('.gallery');
 
 const images = [
